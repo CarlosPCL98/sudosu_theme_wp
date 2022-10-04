@@ -1,0 +1,129 @@
+/*
+Theme Name: sudosu
+Theme URI: https:www.sudosu.org/
+Description: Tema para mi blog.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sudosu
+*/
+
+/*Prueba permisos*/
+/*Fuentes*/
+@font-face{
+  font-family: longhaul;
+  src: url(css/fonts/Longhaul.ttf)
+}
+
+@font-face{
+  font-family: urae;
+  src: url(css/fonts/urae_nium.ttf)
+}
+
+body{
+  background-color: #f0f0f0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.page{
+  height: 100% !important;
+  margin-bottom: 0;
+  bottom: 0px;
+}
+
+
+/*HEADER*/
+/*Estilos del titulo*/
+.titleblog{
+  font-family: urae !important;
+  font-size:100px;
+  margin-bottom: -3% !important;
+}
+
+.navbar{
+  width: 100% !important;
+}
+
+/*ASIDE*/
+  /*Barra de busqueda*/
+  .screen-reader-text{
+    display:none;
+  }
+
+  /*Listas(Widgets)*/
+  .bluu_wi ul{
+    list-style: none;
+  }
+  /*Enlaces*/
+  .bluu_wi ul .list-group-item {
+  color: white;
+  background-color: #343a40;
+  margin-bottom: 1px;
+  opacity: 40%;
+  }
+
+.bluu_wi ul .list-group-item:hover{
+  transition: 300ms !important;
+  opacity: 100% !important;
+  text-decoration: none;
+}
+
+/*PAGINATION*/
+.pagination ul li a {
+  background-color: #a4a6a9;
+  color:white;
+  transition:all 300ms;
+}
+.pagination ul li a:hover {
+  background-color: #343a40;
+  color:white;
+}
+
+.pagination ul .active .current{
+  border: 1px solid #343a40;
+  background-color: #343a40;
+  color:white;
+}
+
+/*INDEX*/
+/*Posts*/
+.post-index{
+  background-color: #d8d8d8;
+  margin-bottom: 5px;
+  margin-top:20px;
+  padding-top:0px !important;
+  border: 1px solid #c2c2c2 !important;
+  /*box-shadow: 10px 10px 10px gray !important;*/
+}
+.title-post{
+  display: inline-block;;
+}
+
+.date_post{
+  margin-bottom: 13px;
+  background-color:#acacac;
+}
+
+
+/*SINGLE*/
+  /*Imagenes responsive*/
+.card-body img{
+  max-width: 100%;
+    height: auto;
+}
+
+/*
+
+
+/*ARTICULOS*/
+/*Comentarios formulario*/
+/*Oculta el campo pagina web.*/
+.comment-form-url{
+  display: none;
+}
+
+/*Tablas*/
+
