@@ -7,7 +7,6 @@ require_once get_template_directory() . '/template-parts/navbar.php';
 //Load JS and CSS
 function sudosu_agregar_css_js()
 {
-
     wp_enqueue_style('style', get_stylesheet_uri()); //Style.css
 
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap/bootstrap.min.css', false, '1.1', 'all');
@@ -69,7 +68,6 @@ add_theme_support('custom-logo', array(
     'flex-width'  => true,
     'header-text' => array('site-title', 'site-description'),
 ));
-
 
 //Add class to images
 add_filter('get_image_tag_class', 'wpse302130_add_image_class');
