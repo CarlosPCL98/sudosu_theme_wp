@@ -1,8 +1,9 @@
 <?php get_header(); ?>
 
-  <!-- Page Content -->
   <div class="container">
+      
 
+  <!-- Page Content -->
     <div class="row">
       <!-- Entradas -->
       <div class="col-lg-8">
@@ -16,7 +17,7 @@
             <h2 class="text-dark title-post text-break ||  mb-md-2 mt-lg-2 || mb-sm-2 mt-2 "><?php the_title(); ?></h2>
           </a>
 
-          <span class="date_post rounded p-1 d-block text-break text-center " style="max-width:170px">Fecha: <?php the_time('j F, Y'); ?> </span>
+          <span class="date_post rounded p-1 d-block text-break text-center " style="max-width:170px"><?php $lang=get_bloginfo("language"); if($lang == 'es') { $date = "Fecha:"; }else{ $date = "Date:"; } echo $date; ?> <?php the_time('j F, Y'); ?> </span>
           
 
           <?php 
@@ -31,9 +32,9 @@
               <div class="text-break ">
               <?php the_excerpt(); ?>
               </div>
-
-              <a href="<?php the_permalink(); ?>" class="btn btn-dark">Leer más &rarr;</a>
-              <p class="d-block mb-1 pt-3 float-lg-right float-sm-none mb-0">Autor: <?php the_author(); ?> Categorias: <span class="category_post"> <?php the_category(' / '); ?> </span><!--Etiquetas: <?php //the_tags('',' / ',''); ?> --></p>
+              
+              <a href="<?php the_permalink(); ?>" class="btn btn-dark"><?php $lang=get_bloginfo("language"); if($lang == 'es') { $read_more = "Leer más"; }else{ $read_more = "Read more"; } echo $read_more; ?> &rarr;</a>
+              <p class="d-block mb-1 pt-3 float-lg-right float-sm-none mb-0"><?php $lang=get_bloginfo("language"); if($lang == 'es') { $author = "Autor:"; }else{ $author = "Author:"; } echo $author; ?> <?php the_author(); ?>, <?php $lang=get_bloginfo("language"); if($lang == 'es') { $categories = "Categorias:"; }else{ $categories = "Categories:"; } echo $categories; ?> <span class="category_post"> <?php the_category(' / '); ?> </span><!--Etiquetas: <?php //the_tags('',' / ',''); ?> --></p>
          </div>
 
 
@@ -42,7 +43,7 @@
        <?php endif; ?> 
 
         <!-- Paginacion --> 
-        <div class="card-body">
+        <div class="mt-4">
           <?php get_template_part('template-parts/content','paginacion'); ?>
         </div><!--Fin paginación -->
 

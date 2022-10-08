@@ -6,7 +6,7 @@
   <div class="row">
     <!-- Entradas -->
    <!-- <div class="col-lg-8 ml-1 row">-->
-    <div class="col-lg-8 ml-1">
+    <div class="col-lg-8">
 
 
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -16,7 +16,7 @@
                 <?php the_title(); ?>
             </h2>
 
-            <span class="date_post rounded p-1 d-block text-break text-center " style="max-width:170px">Fecha: <?php the_time('j F, Y'); ?> </span>
+            <span class="date_post rounded p-1 d-block text-break text-center " style="max-width:170px"><?php $lang=get_bloginfo("language"); if($lang == 'es') { $date = "Fecha:"; }else{ $date = "Date:"; } echo $date; ?> <?php the_time('j F, Y'); ?> </span>
         
             <?php 
             //Revisa si existe imagenes destacadas y si existe la coloca.
@@ -31,13 +31,15 @@
             <div class="mb-3 text-break ">
               <?php the_content(); ?>
             </div>
-
-            <p class="category-author  float-right m-0 pb-0">Autor: <?php the_author(); ?> Categorias: <span> <?php the_category(' / '); ?> </span><!--Etiquetas: <?php //the_tags('',' / ',''); ?> --></p>
-            
+            <br/>
+            <p class="category-author  float-right m-0 pb-0"><?php $lang=get_bloginfo("language"); if($lang == 'es') { $author = "Autor:"; }else{ $author = "Author:"; } echo $author; ?> <?php the_author(); ?>  <?php $lang=get_bloginfo("language"); if($lang == 'es') { $categories = "Categorias:"; }else{ $categories = "Categories:"; } echo $categories; ?> <span> <?php the_category(' / '); ?> </span><!--Etiquetas: <?php //the_tags('',' / ',''); ?> --></p>
+            <br/>
+            <br/>
       </div>
 
         <!-- Comentarios -->
-      <div class=" card-body col-sm-12">
+       <!-- <div class=" card-body col-sm-12"> updating 10/04/22 -->
+      <div class=" card-body post-index rounded mb-1 pt-2 pb-2 d-nowrap || mr-sm-2">
         <?php
             //Revisa comentarios y si estan habilitados, los llama.
             if( comments_open() || get_comments_number() ) :

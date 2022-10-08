@@ -25,6 +25,10 @@ function bootstrap_pagination( \WP_Query $wp_query = null, $echo = true ) {
 	if ( null === $wp_query ) {
 		global $wp_query;
 	}
+	
+	/*Language for pagination 10/01/2022*/
+	
+	$lang=get_bloginfo("language"); if($lang == 'es') { $next = "Siguiente »"; $before = "« Anterior"; }else{  $next = "Next »"; $before = "« Previous"; }
 
 	$pages = paginate_links( [
 			'base'         => str_replace( 999999999, '%#%', esc_url( get_pagenum_link( 999999999 ) ) ),
@@ -36,8 +40,8 @@ function bootstrap_pagination( \WP_Query $wp_query = null, $echo = true ) {
 			'end_size'     => 3,
 			'mid_size'     => 1,
 			'prev_next'    => true,
-			'prev_text'    => __( '« Anterior' ),
-			'next_text'    => __( 'Siguiente »' ),
+			'prev_text'    => __( $before ),
+			'next_text'    => __( $next ),
 			'add_args'     => false,
 			'add_fragment' => ''
 		]

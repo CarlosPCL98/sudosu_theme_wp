@@ -5,7 +5,16 @@
   <meta charset="utf-8">
   <meta name="viewport"
   content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
+  	<link rel="icon" href="https://www.sudosu.info/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="https://www.sudosu.info/favicon.ico" type="image/x-icon" />
+	<!-- For IE 10 and below -->
+	<!--  No link, just place a file called favicon.ico in the root directory -->
+
+	<!-- For IE 11, Chrome, Firefox, Safari, Opera -->
+	<link rel="icon" href="https://www.sudosu.info/wp-content/uploads/2022/10/favicon-300x300.png" sizes="16x16" type="image/png">
+	<link rel="icon" href="https://www.sudosu.info/wp-content/uploads/2022/10/favicon-300x300.png" sizes="32x32" type="image/png">
+	<link rel="icon" href="https://www.sudosu.info/wp-content/uploads/2022/10/favicon-300x300.png" sizes="48x48" type="image/png">
+	<link rel="icon" href="https://www.sudosu.info/wp-content/uploads/2022/10/favicon-300x300.png" sizes="62x62" type="image/png">
   <?php wp_head() ?>
 
 </head>
@@ -14,7 +23,7 @@
 
   <!-- Menu -->
   <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
-    <a class="navbar-brand" href="<?php echo esc_url (home_url( '/' ));?>">  <img src="https://www.sudosu.info/wp-content/uploads/2020/05/logo_white_sf.png" width="45px" height="45px" ></a>
+    <a class="navbar-brand" href="<?php echo esc_url (home_url( '/' ));?>">  <img src="https://www.sudosu.info/logo_white_sf/" width="45px" height="45px" ></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -35,10 +44,9 @@
 
   </nav>
 
-
-
   <!-- Portada-->
   <div class="container ">
+      
     <h2 class="titleblog text-center">Sudo Su</h2>
     <hr>
   </div><!-- Fin portada -->
