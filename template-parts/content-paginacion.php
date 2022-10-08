@@ -47,8 +47,6 @@ function bootstrap_pagination( \WP_Query $wp_query = null, $echo = true ) {
 		]
 	);
 
-
-
 	if ( is_array( $pages ) ) {
 		//$paged = ( get_query_var( 'paged' ) == 0 ) ? 1 : get_query_var( 'paged' );
 
@@ -71,5 +69,3 @@ function bootstrap_pagination( \WP_Query $wp_query = null, $echo = true ) {
 }
 
 echo bootstrap_pagination();
-
-?>

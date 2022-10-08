@@ -1,14 +1,13 @@
 /*
 Theme Name: sudosu
 Theme URI: https:www.sudosu.org/
-Description: Tema para mi blog.
+Description: Theme for my blog.
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: sudosu
+Text Domain: https://www.sudosu.in
 */
 
-/*Prueba permisos*/
-/*Fuentes*/
+/*Fonts*/
 @font-face{
   font-family: longhaul;
   src: url(css/fonts/Longhaul.ttf)
@@ -34,9 +33,8 @@ body{
   bottom: 0px;
 }
 
-
 /*HEADER*/
-/*Estilos del titulo*/
+/*Title*/
 .titleblog{
   font-family: urae !important;
   font-size:100px;
@@ -47,17 +45,17 @@ body{
   width: 100% !important;
 }
 
-/*ASIDE*/
-  /*Barra de busqueda*/
+/*Sidebar*/
+  /*Searcher*/
   .screen-reader-text{
     display:none;
   }
 
-  /*Listas(Widgets)*/
+  /*Lists(Widgets)*/
   .bluu_wi ul{
     list-style: none;
   }
-  /*Enlaces*/
+  /*Links*/
   .bluu_wi ul .list-group-item {
   color: white;
   background-color: #343a40;
@@ -71,7 +69,7 @@ body{
   text-decoration: none;
 }
 
-/*PAGINATION*/
+/*Pagination*/
 .pagination ul li a {
   background-color: #a4a6a9;
   color:white;
@@ -109,21 +107,15 @@ body{
 
 
 /*SINGLE*/
-  /*Imagenes responsive*/
+  /*img responsive*/
 .card-body img{
   max-width: 100%;
     height: auto;
 }
 
-/*
-
-
 /*ARTICULOS*/
-/*Comentarios formulario*/
-/*Oculta el campo pagina web.*/
+/*Form comments*/
+/*Now website for comments!!!!*/
 .comment-form-url{
   display: none;
 }
-
-/*Tablas*/
-
