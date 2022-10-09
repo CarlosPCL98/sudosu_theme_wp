@@ -8,7 +8,7 @@
   }
   ?>
   <p class="m-0 mr-3 text-center text-white">Copyright &copy; <?php bloginfo('Sudo Su');
-                                                              echo ' 2020 - ' . date('Y'); ?> ♥ <a href="https://github.com/CarlosPCL98/sudosu_theme_wp" target="_blank">GitHub Theme</a></p>
+                                                              echo ' 2020 - ' . date('Y'); ?> ♥ <a href="https://github.com/CarlosPCL98/sudosu_theme_wp" target="_blank">Theme</a></p>
   <span id="current_language" hidden><?php echo pll_current_language(); ?></span>
 </footer>
 </body>
