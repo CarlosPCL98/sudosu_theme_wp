@@ -14,7 +14,7 @@
 
 During the first quarantine of the SARS-CoV-2 pandemic of 2020, I had the idea to invest my time at home, in creating a personal blog to publish my personal projects. The theme was coded from zero, after several courses of creation of Themes and Plugins for Wordpress.
 
-I was using this theme for several years and it worked well, now I want to share it here, so anyone can edit it or use it as a reference to create their own theme. :smiley:
+I was using this theme for several years and it worked well, now I want to share it here, so anyone can edit it or use it as a reference to create their own theme for WordPress. :smiley:
 
 ## Preview
 
