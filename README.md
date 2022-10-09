@@ -7,8 +7,6 @@
 <a href="https://github.com/CarlosPCL98/sudosu_theme_wp/blob/main/LICENSE.md"><img alt="License" src="https://img.shields.io/badge/license-GPL%20V3.0-orange.svg?style=flat-square"/></a>
 <a href="https://app.fossa.com/reports/4e2acb03-8466-4aee-9287-a93f9ecc86fc" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FCarlosPCL98%2Fsudosu_theme_wp.svg?type=small"/>
 </p>
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FCarlosPCL98%2Fsudosu_theme_wp.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2FCarlosPCL98%2Fsudosu_theme_wp?ref=badge_small)
     
 ## History
 
