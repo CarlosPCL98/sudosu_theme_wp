@@ -19,7 +19,7 @@ I have been using this theme for several years and it has worked well, now I wan
 
 ## Features
 
-* <img alt="Version" src="https://raw.githubusercontent.com/polylang/polylang/6d660cdda735d759bc502256270ae09cdee9199c/.github/assets/polylang-logo.svg"/>Compatible with PolyLang
+<img alt="Version" src="https://raw.githubusercontent.com/polylang/polylang/6d660cdda735d759bc502256270ae09cdee9199c/.github/assets/polylang-logo.svg"/> Compatible with PolyLang
 
 ![step1.png](docs/step1.png)
 
