@@ -28,8 +28,6 @@ Just visit my website to test the theme! https://www.sudosu.info/
 
 <img alt="javascript" src="https://swiperjs.com/images/libs/js.svg" width="32" height="27"/> Change the interaction and appearance via JS file
 
-<img alt="css" src="https://swiperjs.com/images/libs/js.svg" width="32" height="27"/> Change the interaction and appearance via JS file
-
 <img alt="PolyLang" src="https://raw.githubusercontent.com/polylang/polylang/6d660cdda735d759bc502256270ae09cdee9199c/.github/assets/polylang-logo.svg"/> Compatible with Plugin PolyLang
 
 <img alt="MultiLenguage" src="https://cdn-icons-png.flaticon.com/512/3898/3898150.png" width="27" height="27"/> Ready for multi language URL's English(EN-GB) and Spanish(ES)
