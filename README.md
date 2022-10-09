@@ -13,15 +13,24 @@
 ![screenshot.png](docs/screenshot.png)
 
 ## History
+
 During the first quarantine of the SARS-CoV-2 pandemic of 2020, I had the idea to invest my time at home, in creating a personal blog to publish my personal projects. The theme was coded from zero, after several courses of creation of Themes and Plugins for Wordpress.
 
 I have been using this theme for several years and it has worked well, now I want to share it here, so anyone can edit it or use it as a reference to create their own theme. :smiley:
+
+## Preview
+
+Just visit my website to test the theme! https://www.sudosu.info/
 
 ## Features
 
 <img alt="Bootstrap" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" width="32" height="27"/> Builded with Bootstrap
 
-<img alt="PolyLang" src="https://raw.githubusercontent.com/polylang/polylang/6d660cdda735d759bc502256270ae09cdee9199c/.github/assets/polylang-logo.svg"/> Compatible with PolyLang
+<img alt="javascript" src="https://swiperjs.com/images/libs/js.svg" width="32" height="27"/> Change the interaction and appearance via JS file
+
+<img alt="css" src="https://swiperjs.com/images/libs/js.svg" width="32" height="27"/> Change the interaction and appearance via JS file
+
+<img alt="PolyLang" src="https://raw.githubusercontent.com/polylang/polylang/6d660cdda735d759bc502256270ae09cdee9199c/.github/assets/polylang-logo.svg"/> Compatible with Plugin PolyLang
 
 <img alt="MultiLenguage" src="https://cdn-icons-png.flaticon.com/512/3898/3898150.png" width="27" height="27"/> Ready for multi language URL's English(EN-GB) and Spanish(ES)
 
@@ -41,13 +50,14 @@ Your theme must be activated for it to be displayed.
 ![step4.png](docs/step4.png)
 
 ## Possible issues after installation
-
 ### Navbar and Widgets
+
 If you find that your Navbar (Menus) or Sidebar (Plugins) are not displayed correctly, you may have to activate them again from:
 
 Wordpress > Appearance > Themes > Sudo Su > Customize
 
 ### Multilingual URL's
+
 The theme is prepared by default to work in English as the first language, but if you add more languages through PolyLang, you will have to update the translations to your language.  Here is an example
 ```php
 <?php $lang = get_bloginfo("language");
