@@ -19,13 +19,13 @@ I have been using this theme for several years and it has worked well, now I wan
 
 ## Features
 
-<img alt="PolyLang" src="https://raw.githubusercontent.com/polylang/polylang/6d660cdda735d759bc502256270ae09cdee9199c/.github/assets/polylang-logo.svg"/> Compatible with PolyLang
+<img alt="Bootstrap" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" width="32" height="27"/> Builded with Bootstrap
 
+<img alt="PolyLang" src="https://raw.githubusercontent.com/polylang/polylang/6d660cdda735d759bc502256270ae09cdee9199c/.github/assets/polylang-logo.svg"/> Compatible with PolyLang
 
 <img alt="MultiLenguage" src="https://cdn-icons-png.flaticon.com/512/3898/3898150.png" width="27" height="27"/> Ready for multi language URL's English(EN-GB) and Spanish(ES)
 
-<img alt="Bootstrap" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" width="32" height="27"/> Builded with Bootstrap
-
+<img alt="responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" width="27" height="27"/> Responvise web Design :iphone: :computer:
 
 
 
