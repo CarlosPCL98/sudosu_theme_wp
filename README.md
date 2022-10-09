@@ -25,14 +25,35 @@ I have been using this theme for several years and it has worked well, now I wan
 
 <img alt="MultiLenguage" src="https://cdn-icons-png.flaticon.com/512/3898/3898150.png" width="27" height="27"/> Ready for multi language URL's English(EN-GB) and Spanish(ES)
 
-<img alt="responsive" src="https://icon-library.com/images/website-design-icon/website-design-icon-8.jpg" width="27" height="27"/> Responvise web Design :iphone: :computer:
+<img alt="responsive" src="https://icon-library.com/images/website-design-icon/website-design-icon-8.jpg" width="27" height="27"/> Responvise web Design, adapted for all screens :iphone: :computer:
 
-
-
+## Getting started
+Download the Project to a zip file
 ![step1.png](docs/step1.png)
 
+Go to your Wordpress > Appearance > Themes > Upload a theme 
 ![step2.png](docs/step2.png)
 
+When the installation finishes you will see something like this
 ![step3.png](docs/step3.png)
 
+Your theme must be activated for it to be displayed.
 ![step4.png](docs/step4.png)
+
+## Possible issues after installation
+
+### Navbar and Widgets
+If you find that your Navbar (Menus) or Sidebar (Plugins) are not displayed correctly, you may have to activate them again from:
+
+Wordpress > Appearance > Themes > Sudo Su > Customize
+
+### multilingual URL's
+The theme is prepared by default to work in English as the first language, but if you add more languages through PolyLang, you will have to update the translations to your language.  Here is an example
+```php
+<?php $lang = get_bloginfo("language");
+if ($lang == 'es') {
+    $read_more = "Leer más";
+} else {
+    $read_more = "Read more";
+}
+echo $read_more; ?>
