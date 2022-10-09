@@ -5,10 +5,11 @@
 <a href="https://www.sudosu.info/"><img alt="Author" src="https://img.shields.io/badge/author-Carlos-red.svg?style=flat-square"/></a>
 <img alt="WordPress" src="https://img.shields.io/badge/WordPress-5.0%2B-blue.svg?style=flat-square"/>
 <a href="https://github.com/CarlosPCL98/sudosu_theme_wp/blob/main/LICENSE.md"><img alt="License" src="https://img.shields.io/badge/license-GPL%20V3.0-orange.svg?style=flat-square"/></a>
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FCarlosPCL98%2Fsudosu_theme_wp.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2FCarlosPCL98%2Fsudosu_theme_wp?ref=badge_small)
-<!-- <a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fyrccondor%2Fmdx?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyrccondor%2Fmdx.svg?type=shield"/></a> -->
+<a href="https://app.fossa.com/reports/4e2acb03-8466-4aee-9287-a93f9ecc86fc" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FCarlosPCL98%2Fsudosu_theme_wp.svg?type=small"/>
 </p>
 
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FCarlosPCL98%2Fsudosu_theme_wp.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2FCarlosPCL98%2Fsudosu_theme_wp?ref=badge_small)
+    
 ## History
 
 During the first quarantine of the SARS-CoV-2 pandemic of 2020, I had the idea to invest my time at home, in creating a personal blog to publish my personal projects. The theme was coded from zero, after several courses of creation of Themes and Plugins for Wordpress.
