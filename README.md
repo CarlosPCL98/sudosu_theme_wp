@@ -25,7 +25,7 @@ I have been using this theme for several years and it has worked well, now I wan
 
 <img alt="MultiLenguage" src="https://cdn-icons-png.flaticon.com/512/3898/3898150.png" width="27" height="27"/> Ready for multi language URL's English(EN-GB) and Spanish(ES)
 
-<img alt="responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" width="27" height="27"/> Responvise web Design :iphone: :computer:
+<img alt="responsive" src="https://icon-library.com/images/website-design-icon/website-design-icon-8.jpg" width="27" height="27"/> Responvise web Design :iphone: :computer:
 
 
 
