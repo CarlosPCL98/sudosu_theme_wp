@@ -21,7 +21,7 @@ I have been using this theme for several years and it has worked well, now I wan
 
 <img alt="PolyLang" src="https://raw.githubusercontent.com/polylang/polylang/6d660cdda735d759bc502256270ae09cdee9199c/.github/assets/polylang-logo.svg"/> Compatible with PolyLang
 
-<img alt="Bootstrap" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" width="29" height="27"/> Builded with Bootstrap
+<img alt="Bootstrap" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" width="32" height="27"/> Builded with Bootstrap
 
 
 
