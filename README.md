@@ -47,7 +47,7 @@ If you find that your Navbar (Menus) or Sidebar (Plugins) are not displayed corr
 
 Wordpress > Appearance > Themes > Sudo Su > Customize
 
-### multilingual URL's
+### Multilingual URL's
 The theme is prepared by default to work in English as the first language, but if you add more languages through PolyLang, you will have to update the translations to your language.  Here is an example
 ```php
 <?php $lang = get_bloginfo("language");
