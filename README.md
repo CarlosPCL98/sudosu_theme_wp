@@ -1,5 +1,3 @@
-<!-- # Sudo su - WP theme -->
-<!-- Preview: [https://www.sudosu.info/](https://www.sudosu.info/) -->
 <h1 align="center"><a href="https://www.sudosu.info" target="_blank">Sudo Su - Official Wordpress Theme</a></h1>
 
 <p align="center">
@@ -16,7 +14,7 @@
 
 During the first quarantine of the SARS-CoV-2 pandemic of 2020, I had the idea to invest my time at home, in creating a personal blog to publish my personal projects. The theme was coded from zero, after several courses of creation of Themes and Plugins for Wordpress.
 
-I have been using this theme for several years and it has worked well, now I want to share it here, so anyone can edit it or use it as a reference to create their own theme. :smiley:
+I was using this theme for several years and it worked well, now I want to share it here, so anyone can edit it or use it as a reference to create their own theme. :smiley:
 
 ## Preview
 
@@ -35,16 +33,16 @@ Just visit my website to test the theme! https://www.sudosu.info/
 <img alt="responsive" src="https://icon-library.com/images/website-design-icon/website-design-icon-8.jpg" width="27" height="27"/> Responvise web Design, adapted for all screens :iphone: :computer:
 
 ## Getting started
-Download the Project to a zip file
+1. Download the Project to a zip file
 ![step1.png](docs/step1.png)
 
-Go to your Wordpress > Appearance > Themes > Upload a theme 
+2. Go to your Wordpress > Appearance > Themes > Upload a theme 
 ![step2.png](docs/step2.png)
 
-When the installation finishes you will see something like this
+3. When the installation finishes you will see something like this
 ![step3.png](docs/step3.png)
 
-Your theme must be activated for it to be displayed.
+4. Your theme must be activated for it to be displayed.
 ![step4.png](docs/step4.png)
 
 ## Possible issues after installation
@@ -56,12 +54,13 @@ Wordpress > Appearance > Themes > Sudo Su > Customize
 
 ### Multilingual URL's
 
-The theme is prepared by default to work in English as the first language, but if you add more languages through PolyLang, you will have to update the translations to your language.  Here is an example
+The theme is prepared by default to work in English as the first language, but if you add more languages through PolyLang, you must update the elements to your language.  Here is an example:
+
 ```php
 <?php $lang = get_bloginfo("language");
-if ($lang == 'es') {
+if ($lang == 'es') { // If the page exists in Spanish, display this text
     $read_more = "Leer más";
-} else {
+} else { // English url is the default. 
     $read_more = "Read more";
 }
 echo $read_more; ?>
