@@ -8,8 +8,6 @@
 <a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fyrccondor%2Fmdx?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyrccondor%2Fmdx.svg?type=shield"/></a>
 </p>
 
-![screenshot.png](docs/screenshot.png)
-
 ## History
 
 During the first quarantine of the SARS-CoV-2 pandemic of 2020, I had the idea to invest my time at home, in creating a personal blog to publish my personal projects. The theme was coded from zero, after several courses of creation of Themes and Plugins for Wordpress.
@@ -19,6 +17,8 @@ I was using this theme for several years and it worked well, now I want to share
 ## Preview
 
 Just visit my website to test the theme! https://www.sudosu.info/
+
+![screenshot.png](docs/screenshot.png)
 
 ## Features
 
