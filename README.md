@@ -14,12 +14,6 @@ During the first quarantine of the SARS-CoV-2 pandemic of 2020, I had the idea t
 
 I was using this theme for several years and it worked well, now I want to share it here, so anyone can edit it or use it as a reference to create their own theme for WordPress. :smiley:
 
-## Preview
-
-Just visit my website to test the theme! https://www.sudosu.info/
-
-![screenshot.png](docs/screenshot.png)
-
 ## Features
 
 <img alt="Bootstrap" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" width="32" height="27"/> Builded with Bootstrap
@@ -31,6 +25,12 @@ Just visit my website to test the theme! https://www.sudosu.info/
 <img alt="MultiLenguage" src="https://cdn-icons-png.flaticon.com/512/3898/3898150.png" width="27" height="27"/> Ready for multi language URL's English(EN-GB) and Spanish(ES)
 
 <img alt="responsive" src="https://icon-library.com/images/website-design-icon/website-design-icon-8.jpg" width="27" height="27"/> Responvise web Design, adapted for all screens :iphone: :computer:
+
+## Preview
+
+Just visit my website to test the theme! https://www.sudosu.info/
+
+![screenshot.png](docs/screenshot.png)
 
 ## Getting started
 1. Download the Project to a zip file
