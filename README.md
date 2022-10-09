@@ -1,7 +1,5 @@
-# Sudo su - WP theme
-Preview: [https://www.sudosu.info/](https://www.sudosu.info/)
-
-
+<!-- # Sudo su - WP theme -->
+<!-- Preview: [https://www.sudosu.info/](https://www.sudosu.info/) -->
 <p align="center">
 <img alt="Version" src="https://img.shields.io/badge/version-1.3-3f51b5.svg?style=flat-square"/>
 <a href="https://www.sudosu.info/"><img alt="Author" src="https://img.shields.io/badge/author-Carlos-red.svg?style=flat-square"/></a>
