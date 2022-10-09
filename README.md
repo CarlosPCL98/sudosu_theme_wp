@@ -41,7 +41,7 @@ Just visit my website to test the theme! https://www.sudosu.info/
 3. When the installation finishes you will see something like this
 ![step3.png](docs/step3.png)
 
-4. Your theme must be activated for it to be displayed.
+4. Your theme must be activated to be displayed.
 ![step4.png](docs/step4.png)
 
 ## Possible issues after installation
