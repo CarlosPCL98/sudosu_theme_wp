@@ -29,8 +29,7 @@ I was using this theme for several years and it worked well, now I want to share
 ## Preview
 
 Just visit my website to test the theme! https://www.sudosu.info/
-
-![screenshot.png](docs/screenshot.png)
+<!-- ![screenshot.png](docs/screenshot.png) -->
 
 ## Getting started
 1. Download the Project to a zip file
